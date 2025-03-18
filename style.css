@@ -1,0 +1,33 @@
+body {
+    background-color: #EAD1E1;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: #8E44AD;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px;
+    border-radius: 8px;
+    position: relative;
+}
+.small-box {
+    width: 20px;
+    height: 20px;
+    background-color: #F39C12;
+    margin: 2px;
+    border-radius: 4px;
+}
